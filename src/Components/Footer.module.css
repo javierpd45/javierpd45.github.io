@@ -1,0 +1,16 @@
+.footerText {
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+@media (max-width: 425px) {
+  .footerText {
+    text-align: left;
+  }
+}
