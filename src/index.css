@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-margin: 5rem;
 }
 
 :root {
@@ -19,18 +21,39 @@
   background-color: var(--background);
 }
 
-#root {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 header {
   z-index: 10;
 }
 
 main {
-  flex: 1;
+  padding: 0 1rem;
+}
+
+section {
+  margin: 1rem auto 0;
+  text-align: left;
+}
+
+section:nth-child(1) {
+  padding-top: 4rem;
+}
+
+@media (max-width: 389px) {
+  html {
+    font-size: 12px; /* reduce todo para caber */
+  }
+}
+
+@media (min-width: 768px) {
+  section {
+    max-width: 42rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    max-width: 56rem;
+  }
 }
 
 a {

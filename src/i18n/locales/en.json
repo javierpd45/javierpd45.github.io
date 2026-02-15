@@ -1,11 +1,11 @@
 {
   "header": {
     "home": "Home",
-    "about": "About me"
+    "projects": "Projects"
   },
 
   "main": {
-    "welcome": "Hi, I'm a Fullstack Developer",
+    "welcome": "Hi, I'm Pedro",
     "description": "Welcome to my professional portfolio.",
     "projects_title": "My Projects"
   }

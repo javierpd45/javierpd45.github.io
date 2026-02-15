@@ -28,7 +28,7 @@ export function Header({ t, changeLanguage }) {
     >
       <nav className={styles.navBar}>
         <a href="#home">{t("header.home")}</a>
-        <a href="#about">{t("header.about")}</a>
+        <a href="#projects">{t("header.projects")}</a>
 
         {/* radio buttons */}
         <label>
@@ -50,10 +50,6 @@ export function Header({ t, changeLanguage }) {
           EN
         </label>
       </nav>
-
-      <span style={{ position: "fixed", top: 100, color: "white" }}>
-        Opacidad real: {opacity.toFixed(2)}
-      </span>
     </header>
   );
 }

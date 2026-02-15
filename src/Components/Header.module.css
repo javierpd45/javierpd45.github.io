@@ -5,29 +5,20 @@
 }
 
 .navPill {
-  display: flex;
-  justify-content: center;
   max-width: 425px;
 
-  margin-inline: auto;
+  margin: 0.5rem auto 0;
   width: 100%; /* Le dice que intente ocupar todo, pero el max-width lo frenará */
 
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   border-radius: 999px;
   /* Definimos borde y sombra interna transparentes para que animen */
   border: 1px solid transparent;
-  box-shadow:
-    0 8px 20px rgba(0, 0, 0, 0),
-    inset 0 1px 0 rgba(255, 255, 255, 0);
-
-  /* Empezamos con el mismo color pero opacidad 0 */
-  background-color: rgba(12, 21, 62, 0);
 
   padding: 10px 18px;
   color: var(--text-secondary);
   cursor: pointer;
 }
-
-/* @media (max-width: 425px) {
-} */
