@@ -6,7 +6,19 @@
 
   "main": {
     "welcome": "Hola, soy Pedro",
-    "description": "Bienvenido a mi portfolio profesional.",
-    "projects_title": "Mis Proyectos"
+    "description": "Desarrollador full-stack enfocado en crear experiencias digitales fluidas, intuitivas y de alto impacto. Transformo ideas complejas en interfaces modernas.",
+    "projects_title": "Mis Proyectos",
+    "code": "Código",
+    "preview": "Vista previa",
+    "Projects": {
+      "DevJobs": {
+        "title": "DevJobs",
+        "description": "App de búsqueda de empleos para desarrolladores. Con filtrado en tiempo real y una arquitectura escalable para conectar talento con oportunidades tecnológicas."
+      }
+    }
+  },
+
+  "footer": {
+    "contact": "Contáctame"
   }
 }

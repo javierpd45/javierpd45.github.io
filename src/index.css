@@ -8,6 +8,15 @@
 
 :root {
   --background: #12215f;
+  --background-gradient: linear-gradient(
+    135deg,
+    #12215f,
+    #0f1b4a,
+    #292532,
+    #292532,
+    #3f2d5f,
+    #614497
+  );
   --text: rgba(255, 255, 255, 0.87);
   --text-secondary: rgba(255, 255, 255, 0.75);
   --accent: #535bf2;
@@ -18,7 +27,7 @@
 
   color-scheme: light dark;
   color: var(--text);
-  background-color: var(--background);
+  background: var(--background-gradient);
 }
 
 #root {
@@ -37,6 +46,7 @@ main {
 }
 
 footer {
+  /* El footer ocupará solo lo que necesite su contenido */
   height: auto;
 }
 
@@ -74,4 +84,8 @@ a {
 }
 a:hover {
   color: var(--accent);
+}
+
+p {
+  opacity: 0.7;
 }
