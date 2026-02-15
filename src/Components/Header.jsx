@@ -7,7 +7,7 @@ export function Header({ t, changeLanguage }) {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      const maxScrollY = 100; // Adjust this value based on when you want the header to be fully opaque
+      const maxScrollY = 50; // Adjust this value based on when you want the header to be fully opaque
 
       const newOpacity = Math.min(currentScrollY / maxScrollY, 1);
       setOpacity(newOpacity);
