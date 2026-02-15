@@ -15,6 +15,7 @@ function App() {
           <p>{t("main.description")}</p>
         </section>
         <section id="home">
+          {/* <p>contenido largooooooooooooooooooooooooooooooooooo</p>
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
@@ -28,11 +29,11 @@ function App() {
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
-          <p>contenido largooooooooooooooooooooooooooooooooooo</p>
-          <p>contenido largooooooooooooooooooooooooooooooooooo</p>
+          <p>contenido largooooooooooooooooooooooooooooooooooo</p> */}
         </section>
         <section id="projects">
           <h2>{t("main.projects_title")}</h2>
+          {/* <p>contenido largooooooooooooooooooooooooooooooooooo</p>
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
@@ -50,8 +51,7 @@ function App() {
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
           <p>contenido largooooooooooooooooooooooooooooooooooo</p>
-          <p>contenido largooooooooooooooooooooooooooooooooooo</p>
-          <p>contenido largooooooooooooooooooooooooooooooooooo</p>
+          <p>contenido largooooooooooooooooooooooooooooooooooo</p> */}
         </section>
       </main>
       <Footer />
