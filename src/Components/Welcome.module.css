@@ -2,3 +2,9 @@
   font-size: 1.25rem;
   margin-top: 0.625rem;
 }
+
+@media (min-width: 1024px) {
+  .description {
+    font-size: 1.3rem;
+  }
+}

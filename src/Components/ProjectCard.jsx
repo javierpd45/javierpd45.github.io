@@ -13,7 +13,9 @@ export function ProjectCard({ t, project }) {
 
       <div>
         <h3>{project.title}</h3>
-        <p>{t(`main.Projects.${project.title}.description`)}</p>
+        <p className={styles.description}>
+          {t(`main.Projects.${project.title}.description`)}
+        </p>
 
         <div className={styles.linksContainer}>
           <a
